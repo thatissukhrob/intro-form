@@ -96,7 +96,7 @@ img {
 
 .main-content {
   flex-grow: 1;
-  padding-top: 80p;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
@@ -140,9 +140,23 @@ img {
   line-height: normal;
   font-weight: 500;
 }
+
 .hero-heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 46px;
 }
+
 .hero-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
 }
+
 .hero-bottom {
+  padding: 28px;
+  background-color: var(--green);
+  font-size: 19px;
+  text-align: center;
 }
