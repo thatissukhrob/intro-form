@@ -99,3 +99,50 @@ img {
   padding-top: 80p;
   padding-bottom: 80px;
 }
+
+/* HERO */
+
+.intro-page {
+  display: flex;
+}
+
+.hero {
+  --text-color: #fff;
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 570px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--text-color);
+}
+
+.hero-main {
+  flex-grow: 1;
+  padding: 55px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #222;
+  background-image: url(../img/intro-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-badge {
+  border-radius: 41px;
+  padding: 5px 15px;
+  margin-bottom: 60px;
+  border: 1px solid var(--text-color);
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 500;
+}
+.hero-heading {
+}
+.hero-text {
+}
+.hero-bottom {
+}
